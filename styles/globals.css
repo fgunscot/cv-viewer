@@ -22,3 +22,7 @@ a {
 svg {
   fill: white;
 }
+
+ul {
+  list-style-type: circle;
+}
