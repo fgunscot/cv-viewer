@@ -104,11 +104,11 @@ export default function Home() {
           </div>
           <div className='pl-8'>
             <ul>
-              <li>Sparta Global is a consultants company that offers training and assessments to assure their employees are of a good standard that will be able to accel and adapted to the employer's needs. </li>
-              <li>I spent my time at Sparta training in the C# track as I'd worked with C# using unity, this was extremely beneficial as it help translate what I had learnt from games design to be more appropriate within a business environment. </li>
+              <li>Sparta Global is a consultants company that offers training and assessments to assure their employees are of a good standard that will be able to accel and adapted to the employer&apos;s needs. </li>
+              <li>I spent my time at Sparta training in the C# track as I&apos;d worked with C# using unity, this was extremely beneficial as it help translate what I had learnt from games design to be more appropriate within a business environment. </li>
               <li>Reading and Writing to an SQL database was an important lesson that gave me a better understanding of the end to end process.</li>
               <li>Understanding the underlining infrastructure our code was being run on, ie writing in the asp.net framework is then being compiled by the dot net runtime and so on. This was insightful and helped frame anything new that id learned within the rest of a component tree. </li>
-              <li>I had been studying web development before attending this train so this consolidated anything I'd already learnt, setting up node.js, bootstrapping a framework, and consuming REST APIs. </li>
+              <li>I had been studying web development before attending this train so this consolidated anything I&apos;d already learnt, setting up node.js, bootstrapping a framework, and consuming REST APIs. </li>
             </ul>
           </div>
 
@@ -120,8 +120,8 @@ export default function Home() {
               <li>Using resources from flutter documentation to build up a set of flexible skills that are applicable in a professional environment. </li>
               <li>Getting to grips with an Object-Oriented frontend software, and experimenting with programming patterns such as MVVM, and MVC. </li>
               <li>I drew parallels between flutter and next.js both being a complete frontend solutions, where most of the components necessary are included within the framework. </li>
-              <li>Also the first time I've used Firebase, backend as a service and I'm very impressed with the convenience of setting up the service. Authentication and interaction with the database are safe and accessible. Although I felt that more complexity could cause maintainability problems. </li>
-              <li>I've started by learning provider which is a flutter state management library, that is flexible and drastically reduces boilerplate. I plan to remake this app using various other state management libraries flutter offers such as bloc. </li>
+              <li>Also the first time I&apos;ve used Firebase, backend as a service and I&apos;m very impressed with the convenience of setting up the service. Authentication and interaction with the database are safe and accessible. Although I felt that more complexity could cause maintainability problems. </li>
+              <li>I&apos;ve started by learning provider which is a flutter state management library, that is flexible and drastically reduces boilerplate. I plan to remake this app using various other state management libraries flutter offers such as bloc. </li>
             </ul>
           </div>
 
@@ -129,8 +129,8 @@ export default function Home() {
           <h2 className='text-lg font-bold text-gray-600'>Fullstack Marketplace App</h2>
           <div className='pl-8'>
             <ul>
-              <li>Having now familiarized myself with flutter and settled on a base architecture that can be expanded, I've decided to start work on a full product. </li>
-              <li>Initially, I had planned to use the firebase BaaS for this project, but it failed to meet one of the requirements needed on the payment system so I've opted to use google cloud platform written in golang to run the backend whilst maintaining firebase authentication. </li>
+              <li>Having now familiarized myself with flutter and settled on a base architecture that can be expanded, I&apos;ve decided to start work on a full product. </li>
+              <li>Initially, I had planned to use the firebase BaaS for this project, but it failed to meet one of the requirements needed on the payment system so I&apos;ve opted to use google cloud platform written in golang to run the backend whilst maintaining firebase authentication. </li>
               <li>As this project is a full solution I will be maintaining a high test coverage, I have already familiarized myself with flutters testing and mocking frameworks and intend to use TDD to achieve a well-tested end product.</li>
             </ul>
           </div>
@@ -139,7 +139,7 @@ export default function Home() {
           <h2 className='text-lg font-bold text-gray-600'>Tappy Miner Android game</h2>
           <div className='pl-8'>
             <ul>
-              <li>As I have an education in games design, I have produced a variety of games some of which I've released as a complete products. The most recent of these is tappy miner which I released to the google play store at the end of 2021. </li>
+              <li>As I have an education in games design, I have produced a variety of games some of which I&apos;ve released as a complete products. The most recent of these is tappy miner which I released to the google play store at the end of 2021. </li>
               <li>Although not necessarily performing well in terms of downloads the skills and processes needed to take a product to market are invaluable. </li>
               <li>Polishing and refactoring code that is hard to maintain or prone to have bugs, and recognizing this within my codebase. </li>
               <li>Adding external Apis and libraries to fulfil requirements, such as leader boards, in-app purchases and ad networks. </li>
@@ -161,9 +161,9 @@ export default function Home() {
             <ul>
               <li>Studying games design was a great practical introduction to programming, although predominately focus on design the course provided me with a high-level overview and a chance to familiarise myself with logic code. </li>
               <li>Working through the design cycle, starting with a design and ending with a playable product help reinforce key concepts. </li>
-              <li>This course introduces me to 2 programming languages which is beneficial as I'm more comfortable changing languages and able to recognise how they differ and adjust to these changes. </li>
+              <li>This course introduces me to 2 programming languages which is beneficial as I&apos;m more comfortable changing languages and able to recognise how they differ and adjust to these changes. </li>
               <li>Working with an engine like unity was also beneficial, as it relies on inheritance that is exposed to the user, therefore, introducing these lessons to the user. </li>
-              <li>Producing games frequently was also a huge benefit when learning to program as I'd found various solutions to different problems that i had faced. </li>
+              <li>Producing games frequently was also a huge benefit when learning to program as I&apos;d found various solutions to different problems that i had faced. </li>
             </ul>
           </div>
         </div>
