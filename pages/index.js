@@ -9,7 +9,7 @@ const myLoader = ({width, quality }) => {
   return `https://picsum.photos/200`
 }
 
-const words = ['Flutter', 'pub', 'JavaScript', 'node js', 'npm', 'go', 'HTML', 'React', 'Vuejs', 'CSS','Scss', 'Sass','CSS post-processing','firebase', 'sql', 'docker', 'Google Cloud Platform']
+const words = ['Flutter', 'Pub', 'JavaScript', 'Node js', 'NPM', 'Go', 'HTML', 'React','Next.js', 'Vuejs', 'Nuxt.js', 'CSS', 'Scss', 'Sass', 'CSS post-processing', 'Firebase', 'NoSQL', 'SQL', 'Docker', 'Google Cloud Platform']
 
 const ListItem = ({word}) => {
   return (
