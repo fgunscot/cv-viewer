@@ -9,6 +9,7 @@ const myLoader = ({width, quality }) => {
   return `https://picsum.photos/200`
 }
 
+const words2 = ['Flutter', 'Javascript and Frameworks', 'Backend languages, Node.js, Go, C#', 'Package Managers', 'Databases, SQL, NoSQL', 'BaaS, Firebase', 'Docker containerization', 'Cloud Computing, GCP, Azure, AWS', 'Gitlabs CI/CD', 'Google Play Store Deployment']
 const words = ['Flutter', 'Pub', 'JavaScript', 'Node js', 'NPM', 'Go', 'HTML', 'React','Next.js', 'Vuejs', 'Nuxt.js', 'CSS', 'Scss', 'Sass', 'CSS post-processing', 'Firebase', 'NoSQL', 'SQL', 'Docker', 'Google Cloud Platform']
 
 const ListItem = ({word}) => {
@@ -18,7 +19,7 @@ const ListItem = ({word}) => {
 }
 
 const DisplayPillsArr = () => {
-  const pills = words.map((word, index) => <ListItem key={index} word={word}/>)
+  const pills = words2.map((word, index) => <ListItem key={index} word={word}/>)
   return (
     <div className='flex flex-wrap'>
       {pills}
