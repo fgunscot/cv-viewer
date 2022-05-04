@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { MailIcon } from '@heroicons/react/solid'
+import { MailIcon, PhoneIcon } from '@heroicons/react/solid'
 import { CalendarIcon, LocationMarkerIcon } from '@heroicons/react/outline'
 import { useState } from 'react'
 
@@ -40,17 +40,17 @@ export default function Home() {
               <p className='text-sm text-white pl-12'>Multi-skilled engineer, with a keen eye for detail and good design. Predominantly working with frontend technologies while intent on learning the software that suits the solution. I am a Diligent team member, and reliable when working independently. Great at working with direction and pertinent when called for input.  </p>
           </div>
         </div>
-        <div className={`flex py-3 px-6 ${styles.socialsBg}`}>
-          <button  className='w-min m-auto'
-          onClick={() => {navigator.clipboard.writeText('fgunscot@gmail.com')}}>
+        <div className={`grid grid-cols-2 py-3 px-6 ${styles.socialsBg}`}>
+          <button  className='w-min m-auto pb-1'
+          onClick={() => {navigator.clipboard.writeText('rwstapleton0@gmail.com')}}>
             <div className='flex items-center group w-min m-auto'>
               <MailIcon className='h-5 w-5 text-white mr-4'/>
-              <h2 className="text-sm text-white group-hover:underline">fgunscot@gmail.com</h2>
+              <h2 className="text-sm text-white group-hover:underline">rwstapleton0@gmail.com</h2>
               <h2 className='bg-white transition-opacity opacity-0 group-hover:opacity-100 duration-500 fixed z-10 shadow-md rounded-lg p-3 px-6 translate-x-2 -translate-y-10 pointer-events-none'>Click to Copy Address.</h2>
             </div>
           </button>
           <Link href={'https://github.com/fgunscot/'}>
-            <a target="_blank" className='w-min m-auto'>
+            <a target="_blank" className='w-min m-auto pb-1'>
               <div className='flex items-center group'>
                 <div className='h-5 w-5 text-white mr-4 '>
                 <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"><path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"/></svg>
@@ -60,7 +60,7 @@ export default function Home() {
             </a>
           </Link>
           <Link href={'https://fgunscot.github.io/flutterfire_chat_app/#/'}>
-            <a target="_blank" className='w-min mx-auto'>
+            <a target="_blank" className='w-min mx-auto pt-1'>
               <div className='flex items-center group'>
                 <div className='h-5 w-5 text-white mr-4 '>
                 <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="22px" height="20px"><path d="M3.5 12.5L6.5 15.5 19 3 13 3zM19 12L13 12 8 17 13 22 19 22 14 17z"/></svg>
@@ -69,6 +69,13 @@ export default function Home() {
               </div>  
             </a>
           </Link>
+          <button  className='w-min m-auto pt-1' onClick={() => {navigator.clipboard.writeText('+447936546295')}}>
+            <div className='flex items-center group mx-auto'>
+              <PhoneIcon className='h-5 w-5 text-white mr-4'/>
+              <h2 className="text-sm text-white group-hover:underline whitespace-nowrap">+44(0)7936546295</h2>
+              <h2 className='bg-white transition-opacity opacity-0 group-hover:opacity-100 duration-500 fixed z-10 shadow-md rounded-lg p-3 px-6 translate-x-2 -translate-y-10 pointer-events-none'>Click to Copy Number.</h2>
+            </div>
+          </button>
         </div>
         <div className='px-6 py-4'>
           <h2 className={`text-xl underline ${styles.textDarkBlue}`}>AREAS OF EXPERTISE</h2>
