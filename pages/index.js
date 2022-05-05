@@ -160,7 +160,7 @@ export default function Home() {
           <h2 className='text-lg font-bold text-gray-600'>University of the Arts London</h2>
           <div className='flex text-gray-500'>
             <CalendarIcon className='h-5 w-5  mr-4 '/>
-            <p className='pr-12'>January 2020 - September 2020</p>
+            <p className='pr-12'>September 2013 - September 2016</p>
             <LocationMarkerIcon className='h-5 w-5  mr-4 '/>
             <p>London, UK</p>
           </div>
